@@ -1,0 +1,35 @@
+.event-card-custom{
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    margin: 15px;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+
+    background-color: #ffffff;
+}
+.event-card-custom:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.event-card-custom .card-title{
+    font-size: 1.25em;
+    font-weight: 700;
+    color: #333333;
+    line-height: 1.4;
+    margin: 0.5rem;
+}
+.event-card-custom .card-subtitle{
+    font-size: 0.9rem;
+    color: #777777;
+    margin: 0.5rem;
+    
+}
+.event-card-custom .btn-online-primary{
+    color: #38761d;
+    border-color: #38761d;
+}
+.event-card-custom .btn-online-primary:hover{
+    background-color: #38761d;
+    color: #ffffff;
+}
